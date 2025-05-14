@@ -22,6 +22,12 @@ A complete backend for a real-time auction service using AWS Serverless technolo
 ## Architecture Overview
 
 Here is a high-level overview of the serverless architecture:
+![serverless architecture](https://github.com/user-attachments/assets/86b4cf8e-0e95-4360-8d5b-97f0e29e311c)
+
+
+
+
+### VS Code  and Base Code
 ![Basecode](https://github.com/user-attachments/assets/daf8a335-4ae8-4ed1-b51b-16f45fe8cbf6)
 
 
