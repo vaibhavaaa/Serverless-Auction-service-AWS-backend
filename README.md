@@ -45,7 +45,7 @@ AWS **CloudWatch** is used for logging and monitoring the backend services.
 ### Get Auction by ID
 This endpoint retrieves an auction by its unique ID.
 
-![Get Auction by ID](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/assets/getAuctionbyID.png)
+![Get Auction by ID](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/getAuctionbyID.png)
 
 ### Get Auctions
 This endpoint fetches all available auctions.
