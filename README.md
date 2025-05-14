@@ -45,7 +45,7 @@ AWS **CloudWatch** is used for logging and monitoring the backend services.
 ### Get Auction by ID
 This endpoint retrieves an auction by its unique ID.
 
-![Get Auction by ID](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/getAuctionbyID.png)
+![Get Auction by ID](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/assets/getAuctionbyID.png)
 
 ### Get Auctions
 This endpoint fetches all available auctions.
@@ -71,5 +71,6 @@ Here is a snippet of the code running inside the Lambda function:
 
 ```bash
 npm install
+cp .env.example .env
 # Deploy if needed (optional)
 # npx serverless deploy
