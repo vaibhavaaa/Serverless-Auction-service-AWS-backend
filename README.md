@@ -22,50 +22,56 @@ A complete backend for a real-time auction service using AWS Serverless technolo
 ## Architecture Overview
 
 Here is a high-level overview of the serverless architecture:
+![Basecode](https://github.com/user-attachments/assets/daf8a335-4ae8-4ed1-b51b-16f45fe8cbf6)
 
-![Basecode](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/assets/Basecode.png)
 
 ### CloudFormation
 The infrastructure is defined using **CloudFormation**, which ensures consistent and reproducible deployments.
+![Cloudformation](https://github.com/user-attachments/assets/ce1339b6-32f3-4fed-beff-cea573643e6d)
 
-![CloudFormation](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/assets/Cloudformation.png)
 
 ### CloudWatch
 AWS **CloudWatch** is used for logging and monitoring the backend services.
+![Cloudwatch](https://github.com/user-attachments/assets/8cd9ff76-da22-4aac-9ef8-22dacb1ed0cd)
 
-![CloudWatch](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/assets/Cloudwatch.png)
 
 ### DynamoDB
 **DynamoDB** is the NoSQL database used to store auction data.
+![Dynamodb_overview](https://github.com/user-attachments/assets/ec2e1ede-25a0-44b9-a121-0b6e0e1a5299)
 
-![DynamoDB Overview](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/assets/Dynamodb_overview.png)
 
 ## API Endpoints
 
+### Create Auction 
+This endpoint Creates the Item entry , for further Bid
+![post](https://github.com/user-attachments/assets/f236becb-45b1-47cd-8c67-5aedfaf4d6d6)
+
+
 ### Get Auction by ID
 This endpoint retrieves an auction by its unique ID.
+![getAuctionbyID](https://github.com/user-attachments/assets/ff0fb3f1-8cfb-4931-af24-160fe8395d22)
 
-![Get Auction by ID](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/assets/getAuctionbyID.png)
 
 ### Get Auctions
 This endpoint fetches all available auctions.
+![GetAuctions](https://github.com/user-attachments/assets/60fd61bf-cd95-4f21-8070-f76378f41b66)
 
-![Get Auctions](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/assets/getAuctions.png)
 
 ### Place a Bid
 This endpoint allows users to place bids on an auction.
+![patch](https://github.com/user-attachments/assets/71ad0dc4-99ac-473a-9bc5-e6bbe4f90d62)
 
-![Place a Bid](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/assets/post.png)
 
 ### Lambda Functions
 The logic for handling each of the actions (like creating auctions, placing bids, etc.) is handled by **AWS Lambda** functions.
+![LamdaFunctions](https://github.com/user-attachments/assets/2e50af02-479e-4272-b3ac-a8b277437284)
 
-![Lambda Functions](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/assets/LambdaFunctions.png)
 
 ### Lambda Code Example
 Here is a snippet of the code running inside the Lambda function:
+![Lambdacode](https://github.com/user-attachments/assets/f43f804b-1f39-418f-bbae-05d00d22934a)
 
-![Lambda Code](https://raw.githubusercontent.com/vaibhavaaa/Serverless-Auction-service-AWS-backend/main/assets/Lambdacode.png)
+
 
 ## Setup
 
