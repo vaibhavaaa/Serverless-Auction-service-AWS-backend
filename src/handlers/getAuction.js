@@ -29,7 +29,7 @@ export async function getAuctionById(id){
     if(!auction){
         throw new createHttpError.NotFound(`Auction with ID "${id}" not found!`);
       }
-    return  auction;
+    return auction ;
 }
 
 async function getAuction(event, context) {
