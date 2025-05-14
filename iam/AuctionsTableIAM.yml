@@ -1,0 +1,10 @@
+Effect: Allow
+Action:
+  - dynamodb:PutItem
+  - dynamodb:Scan
+  - dynamodb:GetItem
+  - dynamodb:UpdateItem
+Resource:
+  - Fn::GetAtt:
+      - AuctionsTable   # the logical ID from resources
+      - Arn             # returns arn:aws:dynamodb:…:table/AuctionsTable-dev
